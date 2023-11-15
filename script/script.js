@@ -4,5 +4,5 @@ const hal1 = document.querySelector('.hal1');
 
 btn.addEventListener('click', () => {
     home.style.translate = '0 -100%';
-    hal1.style.display = 'block'
+    hal1.style.display = 'grid';
 });
