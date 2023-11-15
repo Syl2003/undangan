@@ -13,14 +13,13 @@ body {
 
 .hero {
     width: 100%;
-    height: 100vh;
     background-color: lightblue;
+    scroll-behavior: smooth;
 }
 
 .main {
     position: relative;
     max-width: 500px;
-    height: 100vh;
     background-color: tomato;
     margin: 0 auto;
 }
@@ -47,13 +46,15 @@ body {
     align-items: center;
 }
 
-.person-content img, .content img {
+.person-content img,
+.content img {
     width: 250px;
     height: 250px;
     filter: drop-shadow(0 0 3px #000);
 }
 
-.person-content h2, .content h2 {
+.person-content h2,
+.content h2 {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     font-family: 'Dancing Script', cursive;
@@ -103,7 +104,6 @@ body {
 }
 
 .hal1 {
-    position: relative;
     width: 100%;
     height: 100vh;
     background-image: url("/image/image1.jpg");
@@ -148,13 +148,20 @@ body {
     font-weight: bold;
 }
 
-
 .content p {
-   font-size: 1rem;
-   font-weight: 500;
-   text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: capitalize;
 }
 
 .simply-countdown {
-  margin-top: -10rem;
+    margin-top:-7rem;
+}
+
+.hal2 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/image/image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
