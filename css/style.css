@@ -186,7 +186,6 @@ body {
 
 .hal2 {
     width: 100%;
-    height: 100vh;
     background-image: url(/image/image1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -330,8 +329,95 @@ body {
 
 .hal4 {
     width: 100%;
-    height: 100vh;
+    padding-bottom: 1rem;
     background-image: url(/image/image1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.content-hal4 {
+    padding: 3rem 1.5rem;
+    color: #000;
+}
+
+.content-hal4 h1 {
+    color: #000;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+
+.timeline {
+    list-style: none;
+    padding: 1.4rem 0;
+    margin-top: 5rem;
+    position: relative;
+    text-align: start;
+}
+
+.timeline::before {
+    content: '';
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    width: 3px;
+    background-color: #1d7167;
+    left: 1.4rem;
+}
+
+.timeline li {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.timeline li::before,
+.timeline li::after {
+    content: '';
+    display: table;
+}
+
+.timeline li::after {
+    clear: both;
+}
+
+.timeline li .timeline-image {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    position: absolute;
+    left: 0;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid #1d7167;
+}
+
+.timeline li .timeline-panel {
+    width: 80%;
+    border-left: 1px solid #1d7167;
+    position: relative;
+    border-radius: 7px;
+    background-color: #fff;
+    margin-left: 4.5rem;
+    box-shadow: 0 0 5px #000;
+}
+
+.timeline li .timeline-panel::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: -15px;
+    border-top: 15px solid transparent;
+    border-left: 0 solid #1d7167;
+    border-right: 15px solid #1d7167;
+    border-bottom: 15px solid transparent;
+    filter: drop-shadow(-1px 0 1px #000);
+}
+
+.timeline li .timeline-panel .timeline-body p {
+    font-size: 1.2rem;
+    padding: 1rem;
 }
