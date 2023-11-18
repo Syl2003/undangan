@@ -10,6 +10,7 @@
 
 body {
     font-family: sans-serif;
+    background-color: lightblue;
 }
 
 .hero {
@@ -450,15 +451,15 @@ body {
 
 .gift {
     width: 100%;
-    height: 100vh;
     background-image: url(/image/image1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    padding: 8rem 0;
 }
 
 .gift .gift-deskrip {
-    padding: 4rem 1.5rem;
-    
+    padding: 1rem 1.5rem;
+    margin-top: -4rem;
 }
 
 .gift .gift-deskrip h1 {
@@ -479,9 +480,9 @@ body {
 }
 
 .gift .dana {
-  margin-top: -2rem;
-  text-align: center;
-  color: #000;
+    margin-top: 1rem;
+    text-align: center;
+    color: #000;
 }
 
 .gift .dana img {
@@ -490,30 +491,75 @@ body {
 }
 
 .gift .dana h2 {
-  text-transform: capitalize;
-  color: #000;
-  margin-bottom: 1rem;
+    text-transform: capitalize;
+    color: #000;
+    margin-bottom: 1rem;
 }
 
 .gift .dana h3 {
-  text-transform: capitalize;
-  color: #000;
-  font-size: 1.1rem;
+    text-transform: capitalize;
+    color: #000;
+    font-size: 1.1rem;
 }
 
 .gift .dana p {
-  text-transform: capitalize;
-  color: #000;
-  font-size: 1.1rem;
-  margin-top: -1rem;
+    text-transform: capitalize;
+    color: #000;
+    font-size: 1.1rem;
+    margin-top: -1rem;
 }
 
 .gift .dana button {
-  padding: 10px;
-  border-radius: 8px;
-  outline: none;
-  border: none;
-  background-color: #1d7167;
-  color: #fff;
-  margin-top: -.8rem;
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    background-color: #1d7167;
+    color: #fff;
+    margin-top: -.8rem;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.gift .qris {
+    color: #000;
+    margin-top: 2rem;
+}
+
+.gift .qris img {
+    width: 150px;
+    filter: drop-shadow(0 0 3px #000);
+    margin-bottom: 1rem;
+}
+
+.gift .qris h2 {
+    text-transform: capitalize;
+    color: #000;
+    margin-bottom: 1rem;
+}
+
+.gift .qris h3 {
+    text-transform: capitalize;
+    color: #000;
+    font-size: 1.1rem;
+}
+
+.gift .qris p {
+    font-size: .9rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: -1rem;
+    color: #000;
+}
+
+.gift .qris button {
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    background-color: #1d7167;
+    color: #fff;
+    margin-top: -.8rem;
+    text-transform: capitalize;
+    cursor: pointer;
 }
