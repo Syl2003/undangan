@@ -163,7 +163,7 @@ body {
 }
 
 .simply-countdown {
-    margin-top: -11rem;
+    margin-top: -5rem;
 }
 
 .quotes {
@@ -233,11 +233,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 2rem;
-    padding-top: 7rem;
+    padding-top: 4rem;
 }
 
 .waktu {
-    padding-top: 1rem;
     color: #000;
 }
 
@@ -267,7 +266,8 @@ body {
 }
 
 .akad-nikah p {
-    font-size: 1.3rem;
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 .akad-nikah p:nth-child(2) {
@@ -289,6 +289,8 @@ body {
 
 .resepsi p {
     margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 .resepsi p:nth-child(2) {
@@ -314,12 +316,14 @@ body {
     text-transform: capitalize;
     color: #000;
     background-color: #1d7167;
-    padding: 10px 16px;
-    font-size: 1.5rem;
+    padding: 8px 13px;
+    font-size: 1rem;
     font-weight: 500;
     border-radius: 8px;
     color: #fff;
     margin-bottom: 2.5rem;
+    display: flex;
+    align-items: center;
 }
 
 .peta a i {
@@ -396,7 +400,7 @@ body {
 
 .timeline li .timeline-panel {
     width: 80%;
-    border-left: 1px solid #1d7167;
+    border-left: 2px solid #1d7167;
     position: relative;
     border-radius: 7px;
     background-color: #fff;
