@@ -163,7 +163,7 @@ body {
 }
 
 .simply-countdown {
-    margin-top: -5rem;
+    -top: -5rem;
 }
 
 .quotes {
@@ -422,6 +422,98 @@ body {
 }
 
 .timeline li .timeline-panel .timeline-body p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 1rem;
+}
+
+.quots {
+    width: 100%;
+    background-color: #1d7167;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+.quots .content-quots {
+    padding: 0 1.5rem;
+}
+
+.quots .content-quots h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.quots .content-quots p {
+    font-size: .9rem;
+}
+
+.gift {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/image/image1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gift .gift-deskrip {
+    padding: 4rem 1.5rem;
+    
+}
+
+.gift .gift-deskrip h1 {
+    font-weight: 500;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    color: #000;
+}
+
+.gift .gift-deskrip p {
+    font-size: .9rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: 1rem;
+    color: #000;
+}
+
+.gift .dana {
+  margin-top: -2rem;
+  text-align: center;
+  color: #000;
+}
+
+.gift .dana img {
+    width: 150px;
+    margin-bottom: 1rem;
+}
+
+.gift .dana h2 {
+  text-transform: capitalize;
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+.gift .dana h3 {
+  text-transform: capitalize;
+  color: #000;
+  font-size: 1.1rem;
+}
+
+.gift .dana p {
+  text-transform: capitalize;
+  color: #000;
+  font-size: 1.1rem;
+  margin-top: -1rem;
+}
+
+.gift .dana button {
+  padding: 10px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  background-color: #1d7167;
+  color: #fff;
+  margin-top: -.8rem;
 }
