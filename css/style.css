@@ -20,7 +20,6 @@ body {
 .main {
     position: relative;
     max-width: 500px;
-    background-color: tomato;
     margin: 0 auto;
 }
 
