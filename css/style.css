@@ -23,8 +23,29 @@ body {
     margin: 0 auto;
 }
 
+
 .contai {
     display: none;
+}
+
+.music {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 12rem;
+  max-width: 500px;
+  margin: 0 auto;
+  z-index: 99;
+  display: none;
+}
+
+.music .my-music {
+  position: absolute;
+  right: 1rem;
+  width: 80px;
+  height: 80px;
+  background-color: red;
+  border-radius: 50%;
 }
 
 .home {
