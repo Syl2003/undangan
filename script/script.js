@@ -12,21 +12,25 @@ const pause = document.getElementById('pause');
 const audio = new Audio('https://tikcdn.io/ssstik/aHR0cHM6Ly9zZjE2LWllcy1tdXNpYy50aWt0b2tjZG4uY29tL29iai9pZXMtbXVzaWMtYWlzby83MDA0ODExMjIwODM4OTc2MjgyLm1wMw==');
 
 btn.addEventListener('click', () => {
-  home.style.translate = '0 -100%';
+  home.style.translate = "0 -100%";
   contai.style.display = "block";
-  hal1.style.display = 'grid';
-  play.remove()
-  music.style.display = 'block';
-  audio.play();
+  hal1.style.display = "grid";
+  music.style.display = "block";
+  
+  setTimeout(() => {
+    audio.play();
+    home.remove();
+  }, 800);
 
   myMusic.addEventListener('click', () => {
     if (audio.paused) {
       audio.play();
-      play.add()
+      pause.style.display = "block";
+      play.style.display = "none";
     } else {
       audio.pause();
-      play.add()
-      pause.add()
+      pause.style.display = "none";
+      play.style.display = "block";
     }
   });
 });

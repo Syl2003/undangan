@@ -32,7 +32,7 @@ body {
   position: fixed;
   left: 0;
   right: 0;
-  bottom: 8rem;
+  bottom: 9rem;
   max-width: 500px;
   margin: 0 auto;
   z-index: 99;
@@ -53,6 +53,15 @@ body {
   animation: rol 3s linear infinite;
   cursor: pointer;
   color: #fff;
+}
+
+.music .my-music #play {
+    display: none;
+    margin-left: 2px;
+}
+
+.music .my-music #pause {
+    display: block;
 }
 
 .home {
